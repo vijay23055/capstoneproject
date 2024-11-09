@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "build": "echo \"No build step needed\""
-    },
+    "build": "echo \"No build step needed\"",
+    "render-build": "npm install --build-from-source"
+  },
   "author": "vijay",
   "license": "ISC",
   "description": "",
